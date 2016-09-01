@@ -1,0 +1,24 @@
+(deffacts community 
+        (family (father Homer)
+	  	    (mother	Marge)
+	  	    (son   	Bart)
+	  	    (daughter Maggie Lisa))
+	  (neighbour(name Ned))
+)
+
+CLIPS> This family is the Simpsons
+
+
+---------------------------------------
+
+(deffacts community 
+        (family (father Homer)
+	  	    (mother	Mage)
+	  	    (son   	Bart)
+	  	    (daughter Magie Lisa))
+	  (neighbour(name Ted))
+)
+
+CLIPS> Mother is wrong
+The family is not the Simpsons
+Younger sister is wrong

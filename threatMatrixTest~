@@ -1,0 +1,23 @@
+Can the network get to Google? (yes no) yes
+Do you run Googler_Server as root? (yes no) no
+Are there 10 clients connected? (Server full) (yes no) yes
+Are there more than 5 clients idle? (Kill them) (yes no) yes
+
+Results of analysis: The web server will work on port 16000 and has a 10 client limit, but some clients will have to be killed for idling too long. Google searches are automatic, and the users will not be entertained by Connect4 to encourage them to die instead of idleing!
+
+Do you run Googler_Server as root? (yes no) yes
+Is the CPU loaded greater than 50%? (This will limit the # of clients) (yes no) no
+Is the memory loaded greater than 75%? (This will limit the # of clients) (yes no) no
+Is the network loaded greater than 90% of 10 Mbps ethernet? (This will limit the # of clients) (yes no) no
+Do the client browsers support Java2? (yes no) yes
+
+Results of analysis: The web server will work on port 80 and has no forseeable practical (only hardware restricted) limits on clients. Google searches are automatic, and the user can be entertained by Connect4 while he/she waits for the search to complete. All is well!
+
+Do you run Googler_Server as root? (yes no) yes
+Is the CPU loaded greater than 50%? (This will limit the # of clients) (yes no) no
+Is the memory loaded greater than 75%? (This will limit the # of clients) (yes no) yes
+Are there 10 clients connected? (Server full) (yes no) yes
+Are there more than 5 clients idle? (Kill them) (yes no) no
+Do the client browsers support Java2? (yes no) yes
+
+Results of analysis: The web server will work on port 80 and has a 10 client limit. Google searches are automatic, and the user can be entertained by Connect4 while he/she waits for the search to complete. All is well!
